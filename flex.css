@@ -1,24 +1,10 @@
-/*.container
-{
-	background-color: aliceblue;
-	height: 100vh;
-	width: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.box{
-	width: 200px;
-	height: 200px;
-	background-color: greenyellow;
-}*/
 *{
 	margin: 0;
 	padding: 0;
 }
 .container
 {
-	border:5px solid gray; 
+	border:5px solid gray;
 }
 .flex-item
 {
@@ -27,43 +13,19 @@
 	padding: 16px;
 	text-align: center;
 }
-.item-1
-{
-	background-color: #1abc9c;
-}
-.item-2
-{
-	background-color: #3498db;
-}
-.item-3
-{
-	background-color: #2ecc71;
-}
-.item-4
-{
-	background-color: #9b59b6;
-}
-.item-5
-{
-	background-color: #34495e;
-}
-.item-6
-{
-	background-color: #2980b9;
-}
-.item-7
-{
-	background-color: #e74c3c;
-}
-.item-8
-{
-	background-color: #d35400;
-}
-.item-9
-{
-	background-color: #2c3e50;
-}
-.item-10
-{
-	background-color: #3498db;
+.item-1{background-color: #1abc9c;}
+.item-2{background-color: #3498db;}
+.item-3{background-color: #2ecc71;}
+.item-4{background-color: #9b59b6;}
+.item-5{background-color: #34495e;}
+.item-6{background-color: #2980b9;}
+.item-7{background-color: #e74c3c;}
+.item-8{background-color: #d35400;}
+.item-9{background-color: #2c3e50;}
+.item-10{background-color: yellowgreen;}
+/*------------------------------------------------------------*/
+
+.container{
+	display: flex;
+	flex-direction: column-reverse;
 }
